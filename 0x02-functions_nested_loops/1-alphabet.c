@@ -4,14 +4,13 @@
  *
  * Return: 0
  */
-Void print_alphabet(void)
+void print_alphabet(void)
 {
-	Char c;
+	char c;
 
-	For (c = ‘a’; c <= ‘z’; c++)
+	for (c = ‘a’; c <= ‘z’; c++)
 	{
-
-		_putchar(c);
+          	_putchar(c);
 	}
 
 _putchar(‘\n’);
