@@ -27,14 +27,14 @@ void print_alphabet(void)
 	{
 
 
-		_putchar©;
+		_putchar(c);
 
 
 	}
 
 
 
-	_putchar(‘\n’);
+	_putchar('\n');
 
 
 
