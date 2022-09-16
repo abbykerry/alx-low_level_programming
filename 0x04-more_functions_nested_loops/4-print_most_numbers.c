@@ -22,7 +22,7 @@ void print_most_numbers(void)
 
 			continue;
 		else
-			_putchar('0');
+			_putchar(n + '0');
 	}
 	_putchar('\n');
 }
