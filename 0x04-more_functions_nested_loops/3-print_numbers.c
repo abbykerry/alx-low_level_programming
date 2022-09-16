@@ -4,18 +4,23 @@
 
 
 /**
- * print_numbers - func that print all numbers from 0 to 9
+ * print_numbers - function that print all numbers from
  *
- * Return: returns 0-9 plus a new line
+ * 0 to 9
+ *
+ * Return: returns nothing
  *
  */
+
 
 void print_numbers(void)
 
 {
-	int j;
+	int n;
 
-	for (j = 0; j <= 9; j++)
-		_putchar(j + '0');
-	_putchar('\n');
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	putchar(10);
 }
