@@ -12,7 +12,7 @@
 int main(void)
 
 {
-	long number = 717854475142;
+	long number = 612852475143;
 
 	int inc;
 
