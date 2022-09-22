@@ -1,7 +1,16 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: 'Adds one line to this code,
+ *
+ * so that the program prints a[2] = 98, followed by a new line'
+ *
+ * Return: Always (success)
+ */
 
-int main(void);
+int main(void)
 {
 	int n;
 
